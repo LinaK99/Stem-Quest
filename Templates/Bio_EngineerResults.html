@@ -34,9 +34,9 @@ center}
 <div class="row">
 <div class="column">
 <figure>
-  <img src="Images/MarieGertrudeRand.jpg"  width=300 height=500>
+  <img src="{{url_for('static', filename='Images/MarieGertrudeRand.jpg')}}"  width=300 height=500>
   <figcaption>
-  
+
 <strong>Name: </strong>Marie Gertrude Rand<br>
 <strong>Date of birth: </strong>October 29, 1886<br>
 <strong>Date of Death: </strong>June 30, 1970<br>
@@ -49,7 +49,7 @@ center}
 
 <div class="column">
 <figure>
-<img src="Images/deborahKilpatrick.jpg" width=300 height=500>
+<img src="{{url_for('static', filename='Images/deborahKilpatrick.jpg')}}" width=300 height=500>
 <figcaption>
 <strong>Name:</strong> Deborah Kilpatrick <br>
 <strong>Major Accomplishments:</strong> Deborah Kilpatrick earned her BS, MS and PhD degrees in mechanical engineering with a focus on bioengineering from Georgia Tech.  After holding leadership roles at CardioDx and Guidant Corporation she became a co-founder of MedtechVision Conference.She has been given a Rising Star award by the Healthcare Businesswomen's Association and a Spotlight Award by the Professional Women's Healthcare Alliance <br>
@@ -69,8 +69,8 @@ center}
 
 
 <h2>Ready to start learning about the human body?  Check out this video to get an idea of what biomedical engineering is all about!</h2>
-<a href="https://www.youtube.com/watch?v=O6lENrRANxY"> 
-<img src="Image1.jpg" alt="HTML tutorial" style="width:180px;height:180px;border:0;">
+<a href="https://www.youtube.com/watch?v=O6lENrRANxY">
+<img src="{{url_for('static',filename='Images/Image1.jpg')}}" alt="HTML tutorial" style="width:180px;height:180px;border:0;">
 </a>
 
 
@@ -80,11 +80,9 @@ center}
 <p><a href="https://www.engineeringforkids.com">Explore more about Engineering</a></p>
 
 Good luck on your STEM Quest!</h2>
- 
+
 
 
 </body>
 
 </html>
-
-

@@ -34,9 +34,9 @@ center}
 <div class="row">
 <div class="column">
 <figure>
-  <img src="Images/MarthaCoston.jpg"  width=300 height=500>
+  <img src="{{url_for('static',filename='Images/MarthaCoston.jpg')}}"  width=300 height=500>
   <figcaption>
-  
+
 <strong>Name: </strong>Martha Coston<br>
 <strong>Date of birth: </strong>December 23, 1826<br>
 <strong>Date of Death: </strong>July 9, 1904<br>
@@ -49,7 +49,7 @@ center}
 
 <div class="column">
 <figure>
-<img src="Images/StephanieKwolek.jpg" width=300 height=500>
+<img src="{{url_for('static',filename='Images/StephanieKwolek.jpg')}}" width=300 height=500>
 <figcaption>
 <strong>Name:</strong> Stephanie Kwolek <br>
 <strong>Date of Birth: </strong>June 30, 1923<br>
@@ -71,8 +71,8 @@ center}
 
 
 <h2>Ready to start learning about chemicals and what you can do with them?  Check out this video to get an idea of what chemical engineering is all about!</h2>
-<a href="https://www.youtube.com/watch?v=RJeWKvQD90Y"> 
-<img src="Image1.jpg" alt="HTML tutorial" style="width:180px;height:180px;border:0;">
+<a href="https://www.youtube.com/watch?v=RJeWKvQD90Y">
+<img src="{{url_for('static',filename='Images/Image1.jpg')}}" alt="HTML tutorial" style="width:180px;height:180px;border:0;">
 </a>
 
 
@@ -83,11 +83,9 @@ center}
 
 
 <h1>Good luck on your STEM Quest!</h1>
- 
+
 
 
 </body>
 
 </html>
-
-

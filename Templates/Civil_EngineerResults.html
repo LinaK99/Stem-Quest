@@ -34,9 +34,9 @@ center}
 <div class="row">
 <div class="column">
 <figure>
-  <img src="Images/EmilyRoebling.jpg"  width=300 height=500>
+  <img src="{{url_for('static',filename='Images/EmilyRoebling.jpg')}}"  width=300 height=500>
   <figcaption>
-  
+
 <strong>Name: </strong>Emily Roebling<br>
 <strong>Date of birth: </strong>September 23, 1843<br>
 <strong>Date of Death: </strong>February 28, 1903<br>
@@ -49,7 +49,7 @@ center}
 
 <div class="column">
 <figure>
-<img src="Images/Olive_Dennis.jpg" width=300 height=500>
+<img src="{{url_for('static',filename='Images/Olive_Dennis.jpg')}}" width=300 height=500>
 <figcaption>
 <strong>Name:</strong> Olive Dennis <br>
 <strong>Date of Birth: </strong>November 20, 1885<br>
@@ -71,8 +71,8 @@ center}
 
 
 <h2>Ready to start learning about building?  Check out this video to get an idea of what civil engineering is all about!</h2>
-<a href="https://www.youtube.com/watch?v=-xbtnz4wdaA"> 
-<img src="Image1.jpg" alt="HTML tutorial" style="width:180px;height:180px;border:0;">
+<a href="https://www.youtube.com/watch?v=-xbtnz4wdaA">
+<img src="{{url_for('static',filename='Images/Image1.jpg')}}" alt="HTML tutorial" style="width:180px;height:180px;border:0;">
 </a>
 
 
@@ -82,11 +82,9 @@ center}
 <p><a href="https://www.engineeringforkids.com">Explore more about Engineering</a></p>
 
 Good luck on your STEM Quest!</h2>
- 
+
 
 
 </body>
 
 </html>
-
-
