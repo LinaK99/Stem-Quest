@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- -->
+
+<html>
+  <head>
+    <title>Logic</title>
+    <link rel=stylesheet type=text/css href="{{ url_for('static',filename='logicstyle.css') }}">
+  </head>
+  <body>
+        <div class="navbar">
+          <a href="#computers">Computers</a>
+          <a href="#cond">Logic</a>
+          <a href="#game">Game</a>
+        </div>
+        <div class ="mainstuff">
+          <div class="computers">
+            <h1>Computers</h1>
+            <p>Have you ever wondered why computers need to have electricity in order to work?
+               It may seem that electricity is simply magic that somehow powers the mysteries within the black box of your laptop or tablet.
+               However, the relationship between electricity and computers is quite similar to the one between people and blood.
+               You may have heard that computers are made of many smaller parts called <emphasis>circuits</emphasis>.
+               These can be thought of as tiny roads for the electricity. Here it travels along paths until it reaches <emphasis>gates</emphasis>, where,
+               based on how much energy goes through, a different amount will continue along the path.
+               People often say the language of computers is zeros and ones. This is really simply our way of understanding
+               the difference between low and high energy amounts. </p>
+          </div>
+          <div class="cond">
+            <h1>Logic</h1>
+            <p>Everything a computer does can be expressed as a series of <emphasis>operations.</emphasis>
+              While these are not the addition, subtraction, multiplication, and division you normally think of, they function in much the same way.
+              Usually, you will take two (or more) numbers and find a result based on the input and operation.
+              With computer circuits it is the same way. However, instead of any numbers, you can only take a 0 or 1, and
+              we have different definitions for what each operation does. </p>
+              <h2>NOT (~)</h2>
+              <p>A <strong>NOT</strong>operation is unique in that it only takes one input. Just as a negative sign takes
+              a positive number and makes it negative and vice versa, a NOT will make a 1 into a 0 and a 1 into a 0.</p>
+              <h2>AND (&AMP)</h2>
+              <p>An <strong>AND</strong> operation will tell take your input and tell you if both the first AND the second are true.
+              It does this by indicating a false output with a 0 and a true one with a 1.</p>
+              <h2>OR</h2>
+              <p>An <strong>OR</strong> functions much as an AND does, in terms of the output indicating true or false. However,
+              instead of telling you whether both the numbers are one's, it will tell you if you have at least one 1.
+              As a result, whether both of them or just one of the given values are 1's, the output will be a 1. If the input is two 0's though, the output will also be a 0.</p>
+          </div>
+          <div class="game">
+            <h1>Game</h1>
+            <p>Some text some text some text some text..</p>
+          </div>
+      </div>
+
+  </body>
+</html>

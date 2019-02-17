@@ -8,10 +8,10 @@
 <nav>
   <a class="active" href="#home">Home</a>
   <div id="logo"><img src="StemquestLogo.png" alt="Stemquest Logo" width="174" height="50"></div>
-  <a href="About.html">About</a>
+  <a href="{{url_for('about')}}">About</a>
 </nav>
 <main>
-      <h1>Start<div id="quizbutton"><a href="Quiz.html"><img src="quiz.png" alt="Quiz Button" width="300" height="300"/></a></div></h1>
+      <h1>Start<div id="quizbutton"><a href="{{url_for('quiz')}}"><img src="quiz.png" alt="Quiz Button" width="300" height="300"/></a></div></h1>
 </main>
 <!-- <script src="button.js"></script> -->
 </body>

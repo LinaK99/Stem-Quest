@@ -29,6 +29,17 @@ def hello():
 def quiz():
     return render_template('Quiz.html')
 
+@app.route('/Results')
+def results():
+    return render_template('Results.html')
+
+@app.route('/Logic')
+def logic():
+    return render_template('Logic.html')
+
+@app.route('/About')
+def about():
+    return render_template('About.html')
 
 @app.errorhandler(500)
 def server_error(e):
