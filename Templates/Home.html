@@ -5,34 +5,16 @@
   <link rel="stylesheet" href="Home.css"/>
   </head>
   <body>
-<<<<<<< HEAD
-
-      <header>
-    <a href="ewp-home.htm" class="logo">
-    <img src="images/newlogo.svg" alt="Aionia Thea, The Lost City" >
-    </a>
-      <nav role="navigation">
-      <ul class="nav">
-        <li><a class="active" href="#home">Home</a>
-        <li><a href="{{ url_for('about') }}">About</a>
-      </ul>
-      </nav>
-      </header>
-
-
-      <h1>Start <a href="{{ url_for('quiz') }}">Quiz</a></h1>
-=======
 <nav>
   <a class="active" href="#home">Home</a>
   <div id="logo"><img src="StemquestLogo.png" alt="Stemquest Logo" width="174" height="50"></div>
-  <a href="About.html">About</a>
+  <a href="{{use_url('about')}}">About</a>
 </nav>
 <main>
-      <h1>Start<div id="quizbutton"><a href="Quiz.html"><img src="quiz.png" alt="Quiz Button" width="300" height="300"/></a></div></h1>
+      <h1>Start<div id="quizbutton"><a href="{{use_url('quiz')}}"><img src="quiz.png" alt="Quiz Button" width="300" height="300"/></a></div></h1>
 </main>
 <!-- <script src="button.js"></script> -->
 </body>
->>>>>>> 1d28b7bc8cee60017f34ef87c04e0cfb13790181
 
       <footer>
       <p>&copy; 2018 The AwesomeSauce Team<!-- Your name here -->. <!-- Permission statement goes here --></p>
