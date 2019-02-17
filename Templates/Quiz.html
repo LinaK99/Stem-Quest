@@ -1,46 +1,56 @@
 <!DOCTYPE Html>
 <html>
 <head>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="Quiz.css">
 </head>
 <body>
 <h1> Dream Job</h1>
 
-<form>
-	<h3> What is your favorite toy?</h3>
-	<input type="radio" name="toy" value=0> First Aid Kit<br>
-	<input type="radio" name="toy" value=1> Easy Bake Oven <br>
-	<input type="radio" name="toy" value=2> Video Games <br>
-	<input type="radio" name="toy" value=3> Legos <br>
-	
-	
-	<h3> If you could have a super power, which one would it be?</h3>
-	<input type="radio" name="super power" value=1> Shape Shifting <br>
-	<input type="radio" name="super power" value=0> Healing <br>
-	<input type="radio" name="super power" value=3>Super Strength<br>
-	<input type="radio" name="super power" value=2>Mind Control <br>
-	
-	
-	<h3>What is your favorite kitchen utensil?</h3>
-	<input type="radio" name="kitchen" value=1> Whisk <br>
-	<input type="radio" name="kitchen" value=2> Microwave  <br>
-	<input type="radio" name="kitchen" value=3> Rolling Pin <br>
-	<input type="radio" name="kitchen" value=0> Meat Tenderizer <br>
-	
-	
-	<h3> When you're home, where do you spend the most time?</h3>
-	<input type="radio" name="home" value=1> The Kitchen <br>
-	<input type="radio" name="home" value= 0"> The Living Room <br>
-	<input type="radio" name="home" value= 2> The Study<br>
-	<input type="radio" name="home" value=3> The Backyard <br>
-	
-	<h3>Which Disney Princess is your favorite?</h3>
-	<input type="radio" name="princess" value=2> Moana <br>
-	<input type="radio" name="princess" value= 3> Elsa <br>
-	<input type="radio" name="princess" value=0> Rapunzel <br>
-	<input type="radio" name="princess" value=1> Tiana <br>
-	
-	
+<form id="personalityQuiz">
+    <div class="question">
+        <img src="https://cdn.pixabay.com/photo/2015/11/15/21/31/lego-1044891_1280.jpg" alt="Snow" style="width:100%;">
+        <div class="centered">What is your favorite toy?</div>
+    </div>
+    <label class="container">
+        <input type="radio" name="toy" value="result0"> First Aid Kit<br>
+        <span class="checkmark"></span>
+    </label>
+    <input type="radio" name="toy" value="result1"> Easy Bake Oven <br>
+    <input type="radio" name="toy" value="result2"> Video Games <br>
+    <input type="radio" name="toy" value="result3"> Legos <br>
+
+    <h3> If you could have a super power, which one would it be?</h3>
+    <input type="radio" name="super power" value="result1"> Shape Shifting <br>
+    <input type="radio" name="super power" value="result0"> Healing <br>
+    <input type="radio" name="super power" value="result3"> Super Strength<br>
+    <input type="radio" name="super power" value="result2"> Mind Control <br>
+
+
+    <h3>What is your favorite kitchen utensil?</h3>
+    <input type="radio" name="kitchen" value="result1"> Whisk <br>
+    <input type="radio" name="kitchen" value="result2"> Microwave  <br>
+    <input type="radio" name="kitchen" value="result3"> Rolling Pin <br>
+    <input type="radio" name="kitchen" value="result0"> Meat Tenderizer <br>
+
+
+    <h3> When you're home, where do you spend the most time?</h3>
+    <input type="radio" name="home" value="result1"> The Kitchen <br>
+    <input type="radio" name="home" value="result0"> The Living Room <br>
+    <input type="radio" name="home" value="result2"> The Study<br>
+    <input type="radio" name="home" value="result3"> The Backyard <br>
+
+    <h3>Which Disney Princess is your favorite?</h3>
+    <input type="radio" name="princess" value="result2"> Moana <br>
+    <input type="radio" name="princess" value="result3"> Elsa <br>
+    <input type="radio" name="princess" value="result0"> Rapunzel <br>
+    <input type="radio" name="princess" value="result1"> Tiana <br>
+
+    <input type="submit" value="submit">
+</form>
+
+    <script src="Quiz.js"></script>
+
 </body>
 
 </html>
