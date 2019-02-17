@@ -1,0 +1,66 @@
+html, body {
+  background: #f7f5e5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+#container {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  width: 100%;
+  height: 10%; /* changes the size of the nav */
+  background: #ffe653;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(0,0,0,0.8);
+  margin: 0 40px;
+}
+
+.logo {
+  width: 200px;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+}
+
+h1 {
+  text-align: center;
+}
+
+quizbutton {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+/*
+quizbutton {
+  border-radius: 0;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  overflow: hidden;
+  position: relative;
+}
+
+quizbutton .ripple {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  transform: scale(0);
+  animation: ripple 0.6s linear;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
