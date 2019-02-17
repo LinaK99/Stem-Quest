@@ -20,7 +20,7 @@
 .h2 {
 center}
 </style>
-
+<link rel="stylesheet" type=text/css href="{{ url_for('static',filename='Home.css') }}"/>
 </head>
 <body>
 
@@ -29,7 +29,7 @@ center}
 <p>Computer Engineers use math and other types of logic to write all of the programs you use on the computer</p>
 
 
-<h2 style="color:blue;" >Here are some famous Computer Engineers</h2>
+<h2 style="color:magenta;" >Here are some famous Computer Engineers</h2>
 
 <div class="row">
 <div class="column">
@@ -74,6 +74,9 @@ center}
 <a href="https://www.youtube.com/watch?v=O753uuutqH8">
 <img src="{{url_for('static',filename='Images/Image1.jpg')}}" alt="HTML tutorial" style="width:180px;height:180px;border:0;">
 </a>
+
+<h2> <a href="{{url_for('logic')}}">Want to see our own mini-lesson on logic?</a> </h2>
+
 
 
 <h2>You can check out more about Engineering here:</h2>
