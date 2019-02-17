@@ -26,13 +26,13 @@ $("#personalityQuiz").submit(function (event) {
     }
     if (total >= numQuestions) {
         if (maxResult === "result0") {
-            window.location.href = "https://bme.rutgers.edu/";
+            window.location.href = "{{url_for('bio')}}";
         } else if (maxResult === "result1") {
-            window.location.href = "https://cbe.rutgers.edu/";
+            window.location.href = "{{url_for('chem')}}";
         } else if (maxResult === "result2") {
-            window.location.href = "https://www.ece.rutgers.edu/";
+            window.location.href = "{{url_for('computerengine')}}";
         } else {
-            window.location.href = "https://cee.rutgers.edu/";
+            window.location.href = "{{url_for('civil')}}";
         }
     }
 });

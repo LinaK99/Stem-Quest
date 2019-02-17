@@ -41,6 +41,22 @@ def logic():
 def about():
     return render_template('About.html')
 
+@app.route('/Bio')
+def bio():
+    return render_template('Bio_EngineerResults.html')
+
+@app.route('/Chem')
+def chem():
+    return render_template('Chemical_EngineerResults.html')
+
+@app.route('/Civ')
+def civ():
+    return render_template('Civil_EngineerResults.html')
+
+@app.route('/Computer')
+def computerengine():
+    return render_template('Computer_EngineerResults.html')
+
 @app.errorhandler(500)
 def server_error(e):
     logging.exception('An error occurred during a request.')
