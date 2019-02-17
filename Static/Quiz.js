@@ -32,7 +32,7 @@ $("#personalityQuiz").submit(function (event) {
         } else if (maxResult === "result2") {
             window.location.href = "{{url_for('computerengine')}}";
         } else {
-            window.location.href = "{{url_for('civil')}}";
+            window.location.href = "{{url_for('civ')}}";
         }
     }
 });
