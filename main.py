@@ -15,7 +15,7 @@
 # [START gae_flex_quickstart]
 import logging
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, url_for
 
 
 app = Flask(__name__)
@@ -23,7 +23,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return render_template("main.html")
+    return render_template("Home.html")
+
+@app.route('/Quiz')
+def quiz():
+    return render_template('Quiz.html')
 
 
 @app.errorhandler(500)
